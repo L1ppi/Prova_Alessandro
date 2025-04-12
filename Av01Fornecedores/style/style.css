@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cabeçalho1{
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+    
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+p{
+    border-bottom: solid #807c83;
+    min-width: 150px;
+    color: #f2fad5;
+    font-size: 25px;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+.campo1{
+    margin-top: 18%;
+    background: #2325244d;
+    padding: 10px ;
+    border-radius: 10px;
+    border: solid #807c83;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 260px;
+    backdrop-filter: blur(3px);
+}
+.form1{
+
+    min-width: 250px;
+}
+.input1{
+    padding: 5px 0px;
+
+    margin: 0px;
+    min-width: 300px;
+}
+.in1{
+    padding: 10px 10px 5px;
+    min-width: 230px;
+    background: none;
+    border: solid #807c83;
+}
+
+input::placeholder{
+    color: #f2fad5;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.b1{
+    min-width: 255px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    background-color: #2325244d;
+    border: solid #807c83;
+    color: #f2fad5;
+}
+button:hover{
+    background: #2325244d;
+}
+/* ---------------------Estilo 2ª parte---------------- */
+
+.campo2{
+    margin-top: 10%;
+    background: #2325244d;
+    padding: 10px ;
+    border-radius: 10px;
+    border: solid #807c83;
+    min-width: 260px;
+    backdrop-filter: blur(3px);
+    
+}
+.cabeçalho2{
+    margin-bottom: 10px;
+}
+.form2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 30px;
+    max-width: 500px;
+    margin: 0 auto; 
+}
+
+    .in {
+        width: 100%;
+        padding: 10px 10px 10px 5px;
+        background: none;
+        border: solid #807c83;
+        box-sizing: border-box;
+    }
+    .divisor{
+        grid-column: span 2;
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+.b2{
+    background-color: #2325244d;
+    border: solid #807c83;
+    color: #f2fad5;
+    grid-column: span 2; 
+    padding: 10px 10px 10px 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
